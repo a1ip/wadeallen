@@ -1,20 +1,140 @@
----
-layout: default
----
+<!DOCTYPE HTML>
+<!--
+	Miniport 2.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>{{ site.title }}</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="{{ site.title }}" />
+		<meta name="keywords" content="Wade Allen, Pastor, Muncie, Discerning, Church" />
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/skel.min.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+		<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
+	</head>
+	<body>
 
-<div class="home">
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">About</a></li>
+					<li><a href="#work">Work</a></li>
+					<li><a href="http://fbcmuncie.org">Church</a></li>
+					<li><a href="#social">Social</a></li>
+				</ul>
+			</nav>
 
-  <h1>Posts</h1>
+		<!-- Home -->
+			<div class="wrapper wrapper-style1 wrapper-first">
+				<article class="container" id="top">
+					<div class="row">
+						<div class="4u">
+							<span class="me image image-full"><img src="images/me.jpg" alt="" /></span>
+						</div>
+						<div class="8u">
+							<header>
+								<h1>Hi. I'm <strong>Wade Allen</strong>.</h1>
+							</header>
+							 I am a father, husband, son, friend and pastor. I live in <strong>Yorktown, Indiana</strong> and serve as Pastor at <a href="http://fbcmuncie.org">First Baptist Church (Muncie)</a>.
+						</div>
+					</div>
+				</article>
+			</div>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+		<!-- Work -->
+			<div class="wrapper wrapper-style2">
+				<article id="work">
+					<header>
+						<h2>I design and build amazing things.</h2>
+						<span>Odio turpis amet sed consequat eget posuere consequat.</span>
+					</header>
+					<div class="container">
+						<div class="row">
+							<div class="4u">
+								<section class="box box-style1">
+									<span class="fa featured fa-comments-o"></span>
+									<h3>Consequat lorem</h3>
+									<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+								</section>
+							</div>
+							<div class="4u">
+								<section class="box box-style1">
+									<span class="fa featured fa-file-o"></span>
+									<h3>Lorem dolor tempus</h3>
+									<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+								</section>
+							</div>
+							<div class="4u">
+								<section class="box box-style1">
+									<span class="fa featured fa-thumbs-o-up"></span>
+									<h3>Feugiat posuere</h3>
+									<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+								</section>
+							</div>
+						</div>
+					</div>
+					<footer>
+						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+						<a href="#portfolio" class="button button-big">See some of my recent work</a>
+					</footer>
+				</article>
+			</div>
+		<!-- Contact -->
+			<div class="wrapper wrapper-style4">
+				<article id="contact" class="container small">
+					<header>
+						<h2>Want to get in touch?</h2>
+						<span>I would love to hear your feedback or simply help your church navigate God's leading.</span>
+					</header>
+					<div>
+						<div class="row">
+							<div class="12u">
+								<hr />
+								<h3>Find me on ...</h3>
+								<ul class="social">
+									<li class="twitter"><a href="http://twitter.com/n33co" class="fa fa-twitter"><span>Twitter</span></a></li>
+									<li class="facebook"><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
+									<li class="dribbble"><a href="http://dribbble.com/n33" class="fa fa-dribbble"><span>Dribbble</span></a></li>
+									<li class="linkedin"><a href="#" class="fa fa-linkedin"><span>LinkedIn</span></a></li>
+									<li class="tumblr"><a href="#" class="fa fa-tumblr"><span>Tumblr</span></a></li>
+									<li class="googleplus"><a href="#" class="fa fa-google-plus"><span>Google+</span></a></li>
+									<li class="github"><a href="http://github.com/n33" class="fa fa-github"><span>Github</span></a></li>
+									<!--
+									<li class="rss"><a href="#" class="fa fa-rss"><span>RSS</span></a></li>
+									<li class="instagram"><a href="#" class="fa fa-instagram"><span>Instagram</span></a></li>
+									<li class="foursquare"><a href="#" class="fa fa-foursquare"><span>Foursquare</span></a></li>
+									<li class="skype"><a href="#" class="fa fa-skype"><span>Skype</span></a></li>
+									<li class="soundcloud"><a href="#" class="fa fa-soundcloud"><span>Soundcloud</span></a></li>
+									<li class="youtube"><a href="#" class="fa fa-youtube"><span>YouTube</span></a></li>
+									<li class="blogger"><a href="#" class="fa fa-blogger"><span>Blogger</span></a></li>
+									<li class="flickr"><a href="#" class="fa fa-flickr"><span>Flickr</span></a></li>
+									<li class="vimeo"><a href="#" class="fa fa-vimeo"><span>Vimeo</span></a></li>
+									-->
+								</ul>
+								<hr />
+							</div>
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; 2014 Wade Allen</li>
+							<li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
+						</ul>
+					</footer>
+				</article>
+			</div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</div>
+	</body>
+</html>
