@@ -6,6 +6,9 @@ baseurl: ""
 url: "http://wadeallen.me"
 twitter_username: wadeallen
 github_username:  wadeallen
+facebook_url: wadesallen
+google_plus: +WadeAllen
+instagram_username: wadechristy
 
 # Build settings
 markdown: kramdown
